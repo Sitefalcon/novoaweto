@@ -1,0 +1,42 @@
+.mainmob{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+
+}
+#fundo-carrossel{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    margin: 0;
+    padding: 0px;
+    transform: translateX(-10px);
+}
+#slidemob{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    margin: 0;
+    padding: 10px;
+}
+
+.img-slideshow{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    height: 240px;
+    border-radius: 20px;
+}
+
+
+
+#descontodoismob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    transform: translateX(-10px);
+    margin: 0;
+}

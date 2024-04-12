@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/8s8LnN55/aweto.png">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="css/mob/cabeçalho.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="css/mob/main.css">
+    <link rel="stylesheet" media="screen and (max-width:700px)" href="css/mob/produtos.css">
+    <link rel="stylesheet" href="css/style/header.css">
+    <link rel="stylesheet" href="css/style/main.css">
+    <link rel="stylesheet" href="css/style/produtos.css">
+    <title>Loja Aweto</title>
+</head>
+<body>
+    <style>
+        @media (max-width:700px) {
+           .menu, #header-sub, #header-sup,.header-infor{
+            display: flex;
+           }         
+        }
+    </style>
+
+    <header class="headermob">
+        
+        <article class="menu">
+            <i class="bi bi-list" id="icone-cabeçalho"></i>
+            <i class="bi bi-search" id="icone-cabeçalho"></i>
+        </article>
+
+        <img src="aweto.png" alt="" id="logotipo">
+
+        <article class="header-infor">
+
+            <p id="header-sub">Bom dia, Leonardo Alvarenga</p>
+            <p id="header-sup">Explore The World of Ebooks</p>
+      
+            <nav>
+          
+                <a href="religião.html" id="dados-menu">Religião</a>
+                <a href="" id="dados-menu">Desenvolvimento Social</a>
+                <a href="" id="dados-menu">Gratuítos</a>
+                <a href="" id="dados-menu">Todos</a>
+            </nav>
+
+        </article>
+
+        <article class="fundo-pesquisa" id="fundo-pesquisa">
+
+            <div class="fundo-icone-lupa">
+                <i class="bi bi-search"></i>
+            </div>
+
+            <div class="pesquisa">
+
+                <input type="text" name="" class="pesquisa-principal" id="pesquisa-principal" placeholder="O que você procura">
+                
+                <ul class="lupa-pesquisa" id="lista"></ul>
+
+            </div>
+        
+        </article>
+
+    </header>
+
+    <main>
+
+        <article class="fundo-carrosel">
+
+            <div class="mySlides fade">
+                <img src="https://i.postimg.cc/HnFtDbST/banner1.jpg" id="img-slideshow">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="https://i.postimg.cc/MZL5Q8zg/banner2.jpg" id="img-slideshow">
+            </div>
+        
+            <div class="mySlides fade">
+                <img src="https://i.postimg.cc/VN4Bsx7G/banner3.jpg" id="img-slideshow">
+            </div>
+
+            
+            <div class="mySlides fade">
+                <img src="https://i.postimg.cc/VN4Bsx7G/banner3.jpg" id="img-slideshow">
+            </div>
+        
+            
+
+            <script>
+                // ATIVAÇÃO DO CARROSSEL
+        var slideIndex = 0;
+        showSlides();
+        function showSlides() {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}
+          slides[slideIndex-1].style.display = "block";
+          setTimeout(showSlides, 3000); // Change image every 2 seconds
+        }
+        // Next/previous controls
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        function addcarro(){
+          const titulocarro = document.querySelector(".titulo-produto-carrinho");
+          const titulobloco = document.querySelector(".titulo-produto")
+          
+          document.getElementById('titulo-produto-carrinho').innerHTML = 'titulobloco'
+        }
+            </script>
+        </article>
+
+    </main>
+
+    <article class="fundo-categoria">
+        <p id="texto-categoria">Religião</p>
+    </article>
+
+    <article class="fundo-produtos">
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+        <div class="bloco" id="blocomob" >
+            <img src="5passoparaterexito.png" alt="" id="img-produto">
+            <p id="titulo-produto" > 5 passos para uma vida próspera</p>
+            <p id="autor-produto" >Leonardo Alvarenga</p>
+            <p id="preço-produto" >R$ 38,00</p>
+        </div>
+
+    </article>
+
+   
+
+  
+
+
+
+    
+</body>
+</html>

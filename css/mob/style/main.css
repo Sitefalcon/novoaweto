@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+}
+.mySlides{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+}
+#img-slideshow{
+    display: flex;
+    width:100%;
+
+}
+
+.desconto-dois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#0794d3;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+}

@@ -1,0 +1,274 @@
+
+/*DESATIVAR PARA MOBILE*/
+nav,#dados-menu,.bi-search,
+#logodesk,.fundo-pesquisa,.ativar-lupa{
+    display: none;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.headermob{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: normal;
+    background-color: #0c212d;
+    height: 240px;
+    width: 100%;
+    margin: 0;
+}
+
+
+/*config-menu*/
+.ativarscrols{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    background-color: #0c212d;
+}
+
+#icone-menu,.config-logo,.config-lupa{
+    transform: translateY(-20px);
+}
+
+.config-menu{
+    z-index: 2;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    z-index: 1;
+}
+#icone-lupa{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+    height: 60px;
+    width:40%;
+}
+#icone-menu{
+    font-size: 30px;
+    color: white;
+    padding: 20px;
+}
+#logomob{
+    transform: scale(0.8);
+}
+#icone-fechar-menu{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding: 20px;
+    font-size: 35px;
+    color: white;
+    height: 60px;
+     width:40%;
+}
+
+
+.seçao-menu{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.menu-catalogo{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    border-top: 1px solid white;
+    padding: 20px;
+}
+#pagina-menu{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 20px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.menu-redesociais{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid white;
+    padding: 20px;
+}
+#menu-icone-redes{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+#texto-menu-redesociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    transform: translateX(-70px);
+}
+
+
+.menu-sobrenos{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    width: 100%;
+    border-top: 1px solid white;
+    padding: 20px;
+}
+#sobrenos{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+#dados-sobrenos{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    background-color: #0794d3;
+    padding: 10px;
+    border-radius: 20px;
+    width: 50%;
+    margin-top:20px ;
+}
+
+
+
+
+
+
+
+
+
+
+
+.header-infor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    top: 0;
+    position: relative;
+    padding: 0px;
+    margin-top: 0px;
+}
+#header-sub{
+    font-size: 20px;
+    padding: 10px;
+    color: white;
+    margin: 0;
+}
+#header-sup{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+    margin: 0;
+}
+
+.fundo-inputmob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #0c212d;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    z-index: 2;
+
+}
+
+
+#inputmob{
+    padding: 15px;
+    font-size: 21px;
+    width: 80%;
+    border-radius: 40px;
+}
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+#fundo-pesquisa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 0px;
+    background-color: transparent;
+    overflow: hidden;
+    color:white;
+    transition: .2s;
+}
+#pesquisa-principal{
+    font-size: 18px;
+    padding: 15px;
+    min-width: 90%;
+    border-radius: 60px;
+    background-color: white;
+    color: black;
+}
+
+
+/*LUPA ORIGINAL*/
+
+/*seçao lupa*/
+
+.fundo-input{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: red;
+    padding: 10px;
+}
+#seçao-pesquisa{
+    font-size: 18px;
+    padding: 15px;
+    min-width: 80%;
+    border-radius: 60px;
+}
+#exemplo{
+    width: 100%;
+}
