@@ -16,6 +16,12 @@ body{
     height: 60px;
     background-color: #0c212d;
 }
+.ativar-pesquisa{
+    display: flex;
+    }
+    .ativar-pesquisamob{
+        display: flex;
+    }
 header{
     display: flex;
     flex-direction: row;
@@ -116,22 +122,22 @@ a{
    flex-direction: column;
    width: 100%;
    height: 100%;
+
+   
 }
 .dados-lupa{
     display: flex;
-    align-items: normal;
     position:relative;
-    background-color: red;
     flex-direction: column;
     width: 100%;
     background-color: white;
-    padding: 5px;
+    padding: 15px;
     margin-top: 10px;
     font-size: 18px;
     list-style: none;
     color: black;
     top: 0;
-    transform: translateX(-15px) translateY(0px);
+    transform: translateX(-35px) translateY(0px);
 }
 
 
